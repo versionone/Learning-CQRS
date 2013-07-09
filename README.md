@@ -14,6 +14,22 @@ Greg is most well-known for his articulation and elaboration of the Command and 
 
 To make the most of Greg's visit, a bunch of us started gathering in HipChat in CQRSetc to figure out a plan for studying some of Greg and others' materials on CQRS, etc before he arrives.
 
+## Martin Fowler's summary definition of CQRS
+
+As he often does, Martin Fowler provides a concise, approachable definition of [CQRS](http://martinfowler.com/bliki/CQRS.html):
+
+> CQRS stands for Command Query Responsibility Segregation. It's a pattern that I first heard described by Greg Young. At its heart is a simple notion that you can use a different model to update information than the model you use to read information. This simple notion leads to some profound consequences for the design of information systems.
+>
+>The mainstream approach people use for interacting with an information system is to treat it as a CRUD datastore. By this I mean that we have mental model of some record structure where we can create new records, read records, update existing records, and delete records when we're done with them. In the simplest case, our interactions are all about storing and retrieving these records.
+>
+>As our needs become more sophisticated we steadily move away from that model. We may want to look at the information in a different way to the record store, perhaps collapsing multiple records into one, or forming virtual records by combining information for different places. On the update side we may find validation rules that only allow certain combinations of data to be stored, or may even infer data to be stored that's different from that we provide.
+
+## Greg's diagrams
+
+Greg uses these diagrams to depict the "typical CRUD view" on the left side with the CQRS view on the right side:
+
+![http://lh3.ggpht.com/_iiRWyargx_M/TIM29FWLpKI/AAAAAAAAAEU/2mBZbTcCXDw/image_thumb1.png?imgmax=800]
+
 ## Getting started links
 
 Greg originally articulated CQRS in talks and blog posts like these:
