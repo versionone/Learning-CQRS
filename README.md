@@ -6,13 +6,24 @@ One of the first steps in growing our platform capabilities is for us to collect
 
 So, use this repo to share links and ideas about this.
 
-Greg Young (of DDD, CQRS, and CodeBetter, and SkillsMatter fame) will be coming to V1 in August for 3 days to work with the dev team on these subjects.
+# Greg Young's August 2013 Visit
 
-# First learning op: get prepared for Greg's visit
+Greg Young (of DDD, CQRS, CodeBetter, and SkillsMatter fame) will be coming to V1 in August for 3 days to work with the dev team 
+on ramping up on these subjects.
 
-Greg is most well-known for his articulation and elaboration of the Command and Query Responsibility Segregation pattern.
+# Getting prepared for Greg's visit
 
-To make the most of Greg's visit, a bunch of us started gathering in HipChat in CQRSetc to figure out a plan for studying some of Greg and others' materials on CQRS, etc before he arrives.
+Greg is most well-known for his articulation and elaboration of the Command and Query Responsibility Segregation pattern,
+a distributed systems design pattern that extends upon the 
+[Command Query Separation](http://en.wikipedia.org/wiki/Command%E2%80%93query_separation) design pattern.
+
+To make the most of Greg's visit, a bunch of us started gathering in **HipChat in CQRSetc** to figure out a plan for 
+studying some of Greg and others' materials on CQRS, etc before he arrives.
+
+It's a big subject, as evidenced by this diagram from the [CQRS Journey]((http://msdn.microsoft.com/en-us/library/jj554200.aspx) 
+project: 
+
+![CQRS Journey](http://i.msdn.microsoft.com/dynimg/IC610297.png)
 
 ## Martin Fowler's summary definition of CQRS
 
@@ -30,37 +41,61 @@ Greg uses these diagrams to depict the "typical CRUD view" on the left side with
 
 ![CQRS diagram](http://lh3.ggpht.com/_iiRWyargx_M/TIM29FWLpKI/AAAAAAAAAEU/2mBZbTcCXDw/image_thumb1.png?imgmax=1200)
 
-## Getting started links
+# Study plan outline
 
-Greg originally articulated CQRS in talks and blog posts like these:
+Here's what we think, so far:
 
-* Blog: [CQRS, Task Based UIs, Event Sourcing agh!](http://codebetter.com/gregyoung/2010/02/16/cqrs-task-based-uis-event-sourcing-agh/)
-* Video: [CQRS and Event Sourcing -- the Business Perspective](http://skillsmatter.com/podcast/home/greg-young-cqrs-event-sourcing-the-business-perspective)
-* Many of Greg talks are archived for free viewing at his [SkillsMatter Profile](http://skillsmatter.com/expert/home/greg-young)
-** Highly recommended: [Assert.That(We.Understand)](http://skillsmatter.com/podcast/home/talk-from-greg-young)
-** Highly recommended: [Functional Data Storage](http://skillsmatter.com/podcast/home/greg-young)
+## Individual Study
 
-Rinat Abdullin has done much to further CQRS, and collected tons of great summary info and detailed links here:
+We figured we could read / watch the 3 links below individually:
+
+* Fowler's [CQRS summary](http://martinfowler.com/bliki/CQRS.html).
+* [CQRS Clarified](http://www.udidahan.com/2009/12/09/clarified-cqrs/) -- Udi Dahan, co-pioneer of the CQRS vision, breaks down a lot of CQRS misconceptions
+* [CQRS, Task Based UIs, Event Sourcing agh!](http://codebetter.com/gregyoung/2010/02/16/cqrs-task-based-uis-event-sourcing-agh/) -- Post in which Greg also clarifies a lot of misconceptions
+* [CQRS and Event Sourcing -- the Business Perspective](http://skillsmatter.com/podcast/home/greg-young-cqrs-event-sourcing-the-business-perspective) -- Talk where Greg discusses the business perspective on CQRS
+
+## Group Study
+
+* Watch and discuss the recent Pluralsight course over lunch on Tue and Thur in Alph or Loft: ["CQRS Theory and Practice"](http://pluralsight.com/training/Courses/TableOfContents/cqrs-theory-practice), 
+from Michael Perry. Course modules are:
+ * CAP Theorem
+ * Domain Driven Design
+ * CQRS
+ * Durability
+ * Enterprise Service Bus
+ * Append Only Models
+ * Operational Concerns
+ * **Note:** Josh and Ian B have partially completed viewing this course and recommend it.
+* Mess around with code samples, such as those listed below.
+* TODO: Link to where, why, how V1 eventing code is currently using CQRS-style concepts.
+ * And discuss where, how, why it could improve on this.
+
+TODO: finish
+
+## Extra resources
+
+There are tons of great CQRS resources available. Rinat Abdullin done much to further CQRS, and collected tons of great summary info and detailed links here:
 
 * [CQRS Starting Page](http://abdullin.com/cqrs/)
 
-Udi Dahan co-pioneered the concepts with Greg, and authored many great blog posts, including:
+### More of Greg's recorded free talks
 
-* [CQRS Clarified](http://www.udidahan.com/2009/12/09/clarified-cqrs/) 
-
-Martin Fowler summarized the pattern here:
-
-* [CQRS](http://martinfowler.com/bliki/CQRS.html)
-
-## Study plan outline
+Many of Greg talks are archived for free viewing at his [SkillsMatter Profile](http://skillsmatter.com/expert/home/greg-young)
 
 
+* Highly recommended: [Assert.That(We.Understand)](http://skillsmatter.com/podcast/home/talk-from-greg-young)
+* Highly recommended: [Functional Data Storage](http://skillsmatter.com/podcast/home/greg-young)
+* Early presentation at QCON 2008: [Unshackle Your Domain](http://www.infoq.com/presentations/greg-young-unshackle-qcon08)
+* 6 hour free course from taught by Greg: [GregYoung CQRS course](http://www.youtube.com/watch?v=whCk1Q87_ZI)
+  * Josh "attended" this course and [wrote this review](http://agilefromthegroundup.blogspot.com/2010/09/retrospective-of-greg-youngs-final-cqrs.html). 
 
-TODO: finish this, copy from chat channel
+### Code Examples
 
-## More resources
+There are lots of samples on the web that have emerged.
 
-TODO: add more links
+* Greg's [Super Simple CQRS](https://github.com/gregoryyoung/m-r) sample is a good intr to Event Sourcing
+* Microsoft's Patterns and Practices team underwent a long [CQRS Journey](http://msdn.microsoft.com/en-us/library/jj554200.aspx), aided by more than 100 community collaborators.
 
+### Software
 
-
+While it's by no means the only option in this namespace, Greg is working on [Event Store](http://www.GetEventStore.com).
