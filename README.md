@@ -1,6 +1,6 @@
 # What's this for?
 
-During a V-Day in summar 2013, Raj articulated a vision of the VersionOne platform growing to service the needs of 1 million plus users. He emphasized that the platform architecture, and the overall business model, will have to adapt to accomplish this.
+During a V-Day in summer 2013, Raj articulated a vision of the VersionOne platform growing to service the needs of 1 million plus users. He emphasized that the platform architecture, and the overall business model, will have to adapt to accomplish this.
 
 One of the first steps in growing our platform capabilities is for us to collectively increase our knowledge about and experience with building highly scalable app architectures.
 
