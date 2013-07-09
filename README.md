@@ -28,7 +28,7 @@ As he often does, Martin Fowler provides a concise, approachable definition of [
 
 Greg uses these diagrams to depict the "typical CRUD view" on the left side with the CQRS view on the right side:
 
-![http://lh3.ggpht.com/_iiRWyargx_M/TIM29FWLpKI/AAAAAAAAAEU/2mBZbTcCXDw/image_thumb1.png?imgmax=800]
+![CQRS diagram](http://lh3.ggpht.com/_iiRWyargx_M/TIM29FWLpKI/AAAAAAAAAEU/2mBZbTcCXDw/image_thumb1.png?imgmax=1200)
 
 ## Getting started links
 
