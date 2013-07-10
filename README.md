@@ -59,7 +59,7 @@ We figured we could read / watch the 3 links below individually:
 * Watch and discuss the recent Pluralsight course over lunch on Tue and Thur in Alph or Loft: ["CQRS Theory and Practice"](http://pluralsight.com/training/Courses/TableOfContents/cqrs-theory-practice), 
 from Michael Perry. Course modules are:
  * CAP Theorem
- * Domain Driven Design
+ * Domain Driven Design -- V1's own David Laribee has a great article: [An Introduction to Domain-Driven Design](http://msdn.microsoft.com/en-us/magazine/dd419654.aspx)
  * CQRS
  * Durability
  * Enterprise Service Bus
