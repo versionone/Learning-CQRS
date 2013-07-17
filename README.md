@@ -6,7 +6,7 @@ One of the first steps in growing our platform capabilities is for us to collect
 
 So, use this repo to share links and ideas about this.
 
-# Greg Young's August 2013 Visit
+# Greg Young's August 12-14 2013 Visit
 
 Greg Young (of DDD, CQRS, CodeBetter, and SkillsMatter fame) will be coming to V1 in August for 3 days to work with the dev team 
 on ramping up on these subjects.
