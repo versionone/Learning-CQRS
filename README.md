@@ -69,7 +69,7 @@ from Michael Perry. Course modules are:
 * Mess around with code samples, such as those listed below.
 * TODO: Link to where, why, how V1 eventing code is currently using CQRS-style concepts.
  * And discuss where, how, why it could improve on this.
-* Dave highlighted parts of V1 Roadmappingin HipChat in the CQRSetc channel on July 10 and said he can do a 3PM on it. 
+* Dave highlighted parts of V1 Roadmapping in the HipChat CQRSetc channel on July 10 and said he can do a 3PM on it. 
 He also linked to these interviews he's done on DDD, an often closely-related, if not precursory, subject to CQRS:
  * An intro podcast to DDD podcast: http://rubyrogues.com/rr-061-domain-driven-design-ddd-with-david-laribee/
  * Another podcast on DDD: http://deepfriedbytes.com/podcast/episode-6-talking-domain-driven-design-with-david-laribee-part-1/
