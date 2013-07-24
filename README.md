@@ -14,9 +14,13 @@ on ramping up on these subjects.
 I'm not aware of a specific, hard-set curriculum that Greg will be covering when he visits, but you can get a strong 
 sense of what he normally covers from his recurring course outlines here:
 
-• Domain Events, Event Sourcing, and how to apply DDD: http://skillsmatter.com/course/design-architecture/greg-youngs-cqrs-domain-events-event-sourcing-and-how-to-apply-ddd 
-•	Advanced CQRS Workshop: http://skillsmatter.com/course/open-source-dot-net/greg-youngs-advanced-cqrs-workshop 
-•	Implementing DDD & CQRS with The Event Store: http://skillsmatter.com/event/ajax-ria/event-store-day-nyc
+* **Domain Events, Event Sourcing, and how to apply DDD**: http://skillsmatter.com/course/design-architecture/greg-youngs-cqrs-domain-events-event-sourcing-and-how-to-apply-ddd 
+* **Advanced CQRS Workshop**: http://skillsmatter.com/course/open-source-dot-net/greg-youngs-advanced-cqrs-workshop 
+* **Implementing DDD & CQRS with The Event Store**: http://skillsmatter.com/event/ajax-ria/event-store-day-nyc
+
+**Note**: [Event Store](http://geteventstore.com/) is a product Greg is developing, billed as
+
+> The open-source, functional database with Complex Event Processing in JavaScript.
 
 # Getting prepared for Greg's visit
 
